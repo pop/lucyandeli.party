@@ -43,8 +43,8 @@ table{
   border-collapse: separate;
   width: 70%;
   max-width: (100vw - 330);
+  display: inline-block;
   margin: 10px 20px;
-  float: left;
 }
 th, td{
   border: 2px inset black;
@@ -52,8 +52,8 @@ th, td{
 }
 
 .scooby {
-  float: right;
-  padding: 10px 40px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .high-five {
@@ -81,3 +81,17 @@ blink {
   max-height: 400px;
 }
 
+.nothing{
+  max-height: 50px;
+  max-width: 200px;
+}
+
+#footer {
+  background: #fff;
+  height: 70px;
+  color: #162752;
+  padding: 30px;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+}
