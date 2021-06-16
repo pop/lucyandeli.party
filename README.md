@@ -1,4 +1,3 @@
-# The Voigt's Housewarming Party 2021
+# The Voigt's 4th of July Party
 
-A single-page static site to share information about our housewarming party, built with ♥ by me.
-Inspired by https://www.dinostomatopie.com/.
+A single-page static site to share information about our 4th of July party, built with ♥ by me.

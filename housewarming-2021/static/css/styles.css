@@ -1,0 +1,97 @@
+body {
+  background-image: url("../images/sprinkles.png");
+  background-repeat: repeat;
+  font-family: Georgia, serif;
+  cursor: url("../images/nyan_cat.png"), pointer;
+}
+
+.top-bar h2 {
+  font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+}
+
+.top-bar h3 {
+  font-size: calc(15px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+}
+
+.top-bar {
+  border: 5px solid #9A5F7A;
+  text-align: center;
+  background-image: url("../images/pink-glitter.gif");
+  background-repeat: repeat;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  font-family: Times, "Times New Roman", serif;
+  color: #162752;
+  padding: 0px;
+}
+
+.inner-border {
+  padding: 30px;
+  border: 3px solid #EFC7D9;
+  width: 100%;
+  height: 100%;
+}
+
+table{
+  background: #fff;
+  border: 3px outset black;
+  border-spacing: 2px;
+  border-collapse: separate;
+  width: 70%;
+  max-width: (100vw - 330);
+  display: inline-block;
+  margin: 10px 20px;
+}
+th, td{
+  border: 2px inset black;
+  padding: 3px;
+}
+
+.scooby {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.high-five {
+  padding: 5px;
+  max-height: 100px;
+  float: left;
+}
+
+blink {
+  animation: blinkingText .8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: #000;    }
+}
+
+.slackmoji {
+  max-height: 24px;
+}
+
+.lande {
+  max-height: 400px;
+}
+
+.nothing{
+  max-height: 50px;
+  max-width: 200px;
+}
+
+#footer {
+  background: #fff;
+  height: 70px;
+  color: #162752;
+  padding: 30px;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+}
