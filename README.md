@@ -1,3 +1,3 @@
-# The Voigt's Halloween party
+# The Voigt's Party Site
 
-A single-page static site to share information about our Halloween party, built with ♥ by @pono.
+A single-page static site to share information about our parties.

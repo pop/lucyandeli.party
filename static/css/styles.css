@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/tacos.jpg");
+  background-repeat: repeat;
+  font-family: Georgia, serif;
+  margin-top: 10vh;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.top-bar h2 {
+  font-size: 8vh;
+  padding: 10px;
+}
+
+.top-bar h3 {
+  font-size: 2.5vh;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+}
+
+.top-bar {
+  border: 5px solid #27ACB9;
+  text-align: center;
+  background: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  color: #27ACB9;
+  padding: 0px;
+  display: inline-block
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.laser-cat {
+  padding: 2vw;
+  display: block;
+  max-width: 40vw;
+  width: auto;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0
+}
+
+.foot-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.copyright {
+  border: 2px solid black;
+  background: white;
+  width: 60vw;
+  max-width: 1000px;
+  display: block;
+  font-family: Arial, sans-serif;
+  padding: 10px 10vw;
+  min-width: 360px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.copyright button {
+  background-color: #27ACB9;
+  color: white;
+  padding: 10px;
+  margin: 0px 20px;
+  font-weight: bold;
+  border: 2px solid #17676f;
+}
+
+.copyright button:hover{
+  background-color: #17676f;
+  border: 2px solid white;
+}
+
+.copyright h4 {
+  font-weight: bold;
+}
