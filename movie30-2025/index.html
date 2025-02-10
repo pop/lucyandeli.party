@@ -1,75 +1,61 @@
 <html>
     <head>
-<style>
-body {
-    background-color: black;
-}
-
-.all {
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <style>
+.main {
+    width: 50em;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50em;
-    background-color: white;
     text-align: center;
-    padding: 1em;
 }
-
-.content {
-}
-
-.faq {
-}
-
-.tight {
-    width: 100%;
+.container-sm {
     display: inline-block;
 }
-.tight p {
+.container-sm p {
     width: 20%;
     float: left;
 }
-.tight h2 {
+.container-sm h2 {
     width: 80%;
-    float: right;
 }
-</style>
+    </style>
     </head>
     <body>
-        <div class="all">
+        <div class="main">
             <div class="content">
                 <h1>Eli's 30th Birthday</h1>
 
-                <span class="tight">
+                <span class="container-sm">
                 <p>will be held at the</p>
                 <h2>Clinton Street Theater</h2>
                 </span>
 
-                <span class="tight">
+                <span class="container-sm">
                 <p>on</p>
                 <h2>April 28, 2025</h2>
                 </span>
 
-                <span class="tight">
+                <span class="container-sm">
                 <p>from</p>
                 <h2>7PM-10PM</h2>
                 </span>
 
-                <span class="tight">
+                <span class="container-sm">
                 <p>to watch</p>
                 <h2>Bodyhood (2014)</h2>
-                <img src="boyhood.png"></img>
+                <img src="boyhood.png" class="img-fluid" alt="boyhood"></img>
                 </span>
 
-                <span class="tight">
+                <span class="container-sm">
                 <p>interested?</p>
-                <h2>Please RSVP: Text Eli or Lucy by April 21</h2>
+                <h2>Text Eli or Lucy to RSVP by April 21</h2>
                 </span>
             </div>
 
             <hr></hr>
 
-            <div class="faq">
+            <div class="container">
                 <h2>FAQ</h2>
                 <dl>
                     <dt><b>Do I need to buy a ticket?</b></dt>
